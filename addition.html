@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="div">0</div>
+    <button onclick="btn()">check</button>
+    <div id="divs"></div> -->
+
+    <input type="text" id="one">
+    <input type="text" id="two">
+    <button onclick="btn()">check</button>
+
+    <div id="disp">0</div>
+
+    <script>
+        function btn(){
+            inp1 = one.value
+            inp2 = two.value
+            let total = Number(inp1) + Number(inp2) +  Number(99)
+            disp.innerHTML = total
+        }
+    </script>
+</body>
+</html>
